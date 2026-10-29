@@ -212,7 +212,8 @@ The first task established that the EC2 instance was registered as a managed nod
 
 ### 7.3 Evidence A - Managed Node Registration
 
-![Fleet Manager showing the online managed instance](screenshots/Fig01%20Fleet%20Manager%20Managed%20Instance%20Online.png)
+<img width="1359" height="504" alt="Fig01 Managed Instance in Fleet Manager" src="https://github.com/user-attachments/assets/127d23b1-4bee-4ec8-a7c2-213894a84035" />
+
 
 **Figure 1: Fleet Manager showing the managed EC2 node in an online state.**
 
@@ -220,7 +221,8 @@ The first task established that the EC2 instance was registered as a managed nod
 
 ### 7.4 Evidence B - Collected Application Inventory
 
-![Systems Manager application inventory for the managed instance](screenshots/Fig02%20Systems%20Manager%20Application%20Inventory.png)
+<img width="1348" height="628" alt="Fig02 Inventory Association Configuration" src="https://github.com/user-attachments/assets/44c7f7e5-bfe7-4f14-87a9-a1dfabdbcd9a" />
+
 
 **Figure 2: `AWS:Application` inventory collected from the managed instance.**
 
@@ -250,7 +252,8 @@ The second task used Run Command to install the Widget Manufacturing Dashboard o
 
 ### 8.3 Evidence A - Command Document Selection
 
-![Run Command page showing the custom dashboard installation document](screenshots/Fig03%20Run%20Command%20InstallDashboardApp%20Selection.png)
+<img width="1346" height="632" alt="Fig03 Collected Instance Inventory" src="https://github.com/user-attachments/assets/468af49a-e406-4402-9059-e1f036c48aa3" />
+
 
 **Figure 3: Custom `InstallDashboardApp` command document selected in Run Command.**
 
@@ -258,7 +261,8 @@ The second task used Run Command to install the Widget Manufacturing Dashboard o
 
 ### 8.4 Evidence B - Document Details
 
-![Systems Manager document details for InstallDashboardApp](screenshots/Fig04%20InstallDashboardApp%20Document%20Details.png)
+<img width="1359" height="560" alt="Fig04 Run Command Document Setup" src="https://github.com/user-attachments/assets/63a2bac7-7753-40d0-96ee-cf7adf91e1bf" />
+
 
 **Figure 4: Systems Manager document metadata for the dashboard installer.**
 
@@ -266,7 +270,8 @@ The second task used Run Command to install the Widget Manufacturing Dashboard o
 
 ### 8.5 Evidence C - Command Submission
 
-![Run Command execution in progress for the managed instance](screenshots/Fig05%20Run%20Command%20Execution%20In%20Progress.png)
+<img width="1359" height="622" alt="Fig05 Run Command In Progress (Evidence Gap)" src="https://github.com/user-attachments/assets/375f9e1a-9d0a-4f8b-9e7b-29d2f7d73524" />
+
 
 **Figure 5: Run Command submitted to the managed instance and shown in progress.**
 
@@ -274,7 +279,9 @@ The second task used Run Command to install the Widget Manufacturing Dashboard o
 
 ### 8.6 Evidence D - Deployed Application
 
-![Widget Manufacturing Dashboard running after deployment](screenshots/Fig06%20Dashboard%20Before%20Beta%20Feature%20Activation.png)
+<img width="1359" height="594" alt="Fig05 Widget Manufacturing Dashboard" src="https://github.com/user-attachments/assets/c7a81741-c061-4cee-8a65-0b1da4e9749c" />
+
+
 
 **Figure 6: Widget Manufacturing Dashboard rendered in the browser.**
 
@@ -304,7 +311,8 @@ The third task demonstrated externalized application configuration. A Parameter 
 
 ### 9.3 Evidence A - Baseline Application State
 
-![Dashboard before the beta feature was enabled](screenshots/Fig06%20Dashboard%20Before%20Beta%20Feature%20Activation.png)
+<img width="1359" height="481" alt="Fig06 Parameter Store Feature Flag" src="https://github.com/user-attachments/assets/72c63cdf-217c-45c0-9b2f-0830050cfd30" /
+
 
 **Figure 6: Baseline dashboard displaying two visualizations before beta-feature activation.**
 
@@ -312,7 +320,8 @@ The third task demonstrated externalized application configuration. A Parameter 
 
 ### 9.4 Evidence B - Parameter Creation
 
-![Parameter Store showing the beta feature parameter](screenshots/Fig07%20Parameter%20Store%20Beta%20Feature%20Flag.png)
+<img width="1359" height="481" alt="Fig06 Parameter Store Feature Flag" src="https://github.com/user-attachments/assets/a7960fc2-a942-4c82-857a-ed0ee070602f" />
+
 
 **Figure 7: Parameter Store entry for `/dashboard/show-beta-features`.**
 
@@ -320,7 +329,8 @@ The third task demonstrated externalized application configuration. A Parameter 
 
 ### 9.5 Evidence C - Feature Activation
 
-![Dashboard after the beta feature was enabled](screenshots/Fig08%20Dashboard%20After%20Beta%20Feature%20Activation.png)
+<img width="1359" height="391" alt="Fig07 Dashboard Beta Feature Enabled" src="https://github.com/user-attachments/assets/48a7e295-d258-4220-a9ed-94d0de3c51db" />
+
 
 **Figure 8: Dashboard displaying the additional shipping-throughput beta chart.**
 
@@ -350,7 +360,9 @@ The final task established browser-based access to the managed instance through 
 
 ### 10.3 Evidence A - Session Initiation
 
-![Session Manager start-session workflow for the managed instance](screenshots/Fig09%20Session%20Manager%20Managed%20Instance%20Selection.png)
+
+<img width="1359" height="655" alt="Fig10 EC2 Describe Instances Output" src="https://github.com/user-attachments/assets/764eac2a-c44b-48cf-9880-a8ca4adf7fa6" />
+
 
 **Figure 9: Session Manager workflow used to select the managed instance and initiate browser-based access.**
 
